@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+   
+    .open-sans-<uniquifier> 
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+          
+      
+  
+}
+/* Header and navigation style  */
+.header{
+    background:#fff8f3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px ;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.banner{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 35px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color:#757575 ;
+    margin-bottom: 30px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top:130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding:130px 150px ;
+
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-p{
+    color:#757575 ;
+    font-size: 18PX;
+    margin-bottom: 30PX;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around ;
+}
+.about-info-container p{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.about-info-container .p1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
